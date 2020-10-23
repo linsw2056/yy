@@ -10,7 +10,7 @@ red(){
 }
 clear
 green "=========================================================="
- red "本脚本由木子教授改写,所有权归原作者所有" 
+ red "本脚本由测试改写,所有权归原作者所有" 
  blue "本脚本为Trojan for debian9 一键安装脚本" 
  blue "在阿里云Debian9.11 测试通过"
 green "=========================================================="
@@ -115,7 +115,7 @@ mkdir -p /root/trojan               #创建目录
 mkdir -p /root/trojan/trojan-cert   #创建证书目录
 cd /root/trojan   #进入该目录
 #cd /usr/src  
-wget https://github.com/trojan-gfw/trojan/releases/download/v1.14.0/trojan-1.14.0-linux-amd64.tar.xz    #下载官方Trojan服务器
+wget https://github.com/trojan-gfw/trojan/releases/download/v1.16.0/trojan-1.16.0-linux-amd64.tar.xz    #下载官方Trojan服务器
 tar xf trojan-1.*   #解压该文件
 
 
@@ -205,7 +205,6 @@ cat > /root/trojan/配置.txt <<-EOF
 ==========================================================
 
 支持：debian9+
-作者:木子教授 
 
 ==========================================================
 
